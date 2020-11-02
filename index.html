@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUST PETS</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div><span style="background-color: red">Available Pets</span></div>
+            <br>
+            <table id='available' class="col-8">
+                <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Color</th>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <span>Select pet</span>
+            <span id='appending_span'>
+                <select name="animal" id="animal">
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Bird">Bird</option>
+                </select>
+                <button id='button' type="button">Click to see availability</button>
+                <span id='is_it_there'></span>
+            </span>
+            <body style="background-color: lightpink"></body>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
